@@ -20,14 +20,17 @@ import java.time.Duration;
 
 public class Login_Test extends base {
     Login_Page login_page = null;
+    Infrastructure_Page infrastructure_page = null;
 
     @Test()
     public void login_with_valid_credentials() {
         login_page = new Login_Page(driver);
+        infrastructure_page = new Infrastructure_Page(driver);
         login_page.click_on_email_id_text_box("Kinjal@qable.io");
         login_page.click_on_password_text_box("Test@123");
         login_page.click_on_login_button();
         login_page.verify_explore_and_keep_an_eye_on_your_metrics_isVisible();
+        infrastructure_page.verify_and_click_on_Infrastructure();
         //  login_page.click_on_Embrace_your_pro_user_pop_up();
         login_page.verify_and_click_on_logout_menu_option();
         login_page.click_on_logout_button();

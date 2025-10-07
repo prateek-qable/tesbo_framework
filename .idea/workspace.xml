@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="" />
+    <list default="true" id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/demo/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tests/demo/Login_Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,7 @@
     "TestNG.Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02.executor": "Run",
     "TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01.executor": "Run",
     "TestNG.Login_Test.login_with_valid_credentials.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Guest User/Downloads/Al_Mulla_exchange/Al_Mulla_exchange/src/test/java/web/object_repository"
   },
@@ -49,7 +52,7 @@
       <recent name="C:\Users\Guest User\Downloads\Al_Mulla_exchange\Al_Mulla_exchange\src\test\java\web\object_repository" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01">
+  <component name="RunManager" selected="TestNG.Login_Test.login_with_valid_credentials">
     <configuration name="Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Al_Mulla_POC-Tests" />
       <extension name="coverage">
@@ -106,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Login_Test.login_with_valid_credentials" />
         <item itemvalue="TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01" />
         <item itemvalue="TestNG.Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" />
-        <item itemvalue="TestNG.Login_Test.login_with_valid_credentials" />
       </list>
     </recent_temporary>
   </component>
