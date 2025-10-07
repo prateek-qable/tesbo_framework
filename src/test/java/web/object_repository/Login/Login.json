@@ -1,0 +1,122 @@
+{
+  "login_In": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//a[text()='Log In']"
+  },
+  "email_textbox": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@id='email']"
+  },
+  "password_textbox": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@id='password']"
+  },
+  "login_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='btn-text']"
+  },
+  "explore_and_keep_an_eye_on_your_metrics": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='getting-started-text']"
+  },
+  "Embrace_your_pro_pop_up": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "//button[@class=\"dialog__close-action\" or text()='×']"
+  },
+  "logout_menu": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='mw-popover']/following::span[@class=\"user__avatar\"]"
+  },
+  "logout_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Logout']"
+  },
+  "calendar_Menu": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='mw-popover']//div//button[@class='button-v2']"
+  },
+  "date_seven_mar": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='ant-picker-cell-inner custom-inner-div'][normalize-space()='1'])[1]"
+  },
+  "date_thirteen_mar": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='ant-picker-cell-inner custom-inner-div'][normalize-space()='7'])[1]"
+  },
+  "calender_pre_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-picker-panels\"]//div[@class='ant-picker-header'])[1]/button[@class='ant-picker-header-prev-btn']"
+  },
+  "date_time_option": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"date-time-option-list\"]/div[@class=\"list-item \"]"
+  },
+  "mw_date_picker_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-datepicker-button\"]//button[@class=\"button-v2\"]/child::span[@class=\"btn-text\"]"
+  },
+  "global_calender_previous_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//button[@class=\"button-v2\"]/parent::div[@class=\"global-datepicker-slider-btn prev-slider-button\"]"
+  },
+  "global_calender_previous_button_inside_page": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//button[@class=\"button-v2\"]/parent::div[@class=\"global-datepicker-slider-btn prev-slider-button\"])[2] | //button[@class=\"button-v2\"]/parent::div[@class=\"global-datepicker-slider-btn prev-slider-button\"]"
+  },
+  "select_specfic_date": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"date-time-option-list\"]//div[@class=\"list-item \"]"
+  },
+  "global_calender_forward_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//button[@class=\"button-v2\"]/parent::div[@class=\"global-datepicker-slider-btn next-slider-button\"]"
+  },
+  "global_calender_forward_button_inside_page": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//button[@class=\"button-v2\"]/parent::div[@class=\"global-datepicker-slider-btn next-slider-button\"])[2] | //button[@class=\"button-v2\"]/parent::div[@class=\"global-datepicker-slider-btn next-slider-button\"]"
+  },
+  "Past_hour": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[text()='Past hour']"
+  }
+}

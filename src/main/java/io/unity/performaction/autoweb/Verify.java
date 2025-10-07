@@ -164,4 +164,39 @@ public class Verify {
     }
 
 
+    public boolean check_element_is_not_present(String element_name) {
+        boolean bool = false;
+
+        try {
+            if (!element.find(element_name).isDisplayed()) {
+                bool = true;
+
+            }
+        } catch (Exception e) {
+
+        }
+
+        return bool;
+
+    }
+    public void verifyDropdownContainsSearchText(String searchBoxLocatorKey, String Text,String locator_val ) throws InterruptedException {
+        element.click(searchBoxLocatorKey);
+        Thread.sleep(2000);
+        element.enter_text(searchBoxLocatorKey, Text);
+        Thread.sleep(2000);
+        List<WebElement> dropdownSuggestions = element.find_multiple_elements(locator_val);
+        boolean matchFound = false;
+        for (WebElement suggestion : dropdownSuggestions) {
+            if (suggestion.getText().equalsIgnoreCase(Text)) {
+                matchFound = true;
+                break;
+            }
+        }
+
+        if (!matchFound) {
+            throw new AssertionError("❌ No matching suggestion found for text: " + Text);
+        } else {
+            System.out.println("✅ customize drop option found : " + Text);
+        }
+    }
 }

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/TestConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/TestConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Verify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Customer_onboarding/customer_onboarding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Customer_onboarding/customer_onboarding.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/ExchangeRate/exchange_rate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/ExchangeRate/exchange_rate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Headers/headers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Headers/headers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Remit_Online/remit_online.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Remit_Online/remit_online.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/Customer_onboarding/customer_onboarding_test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/ExchangeRate/currency_exchange_rateTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/HeadersTest/headers_test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/Remit_online_test/remit_online_test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="33gXyHCz6w7OH4SdfsqsPvgAZLk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02.executor": "Run",
+    "TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01.executor": "Run",
+    "TestNG.Login_Test.login_with_valid_credentials.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Guest User/Downloads/Al_Mulla_exchange/Al_Mulla_exchange/src/test/java/web/object_repository"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Guest User\Downloads\Al_Mulla_exchange\Al_Mulla_exchange\src\test\java\web\object_repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01">
+    <configuration name="Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Al_Mulla_POC-Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.tests.demo.Infrastructure_Host.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="web.tests.demo.Infrastructure_Host" />
+      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Infrastructure_Host.Infrastructure_Host_Test" />
+      <option name="METHOD_NAME" value="Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Al_Mulla_POC-Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.tests.demo.Infrastructure_Host.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="web.tests.demo.Infrastructure_Host" />
+      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Infrastructure_Host.Infrastructure_Host_Test" />
+      <option name="METHOD_NAME" value="Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_Test.login_with_valid_credentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Al_Mulla_POC-Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.tests.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="web.tests.demo" />
+      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Login_Test" />
+      <option name="METHOD_NAME" value="login_with_valid_credentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01" />
+        <item itemvalue="TestNG.Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" />
+        <item itemvalue="TestNG.Login_Test.login_with_valid_credentials" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="" />
+      <created>1759739941859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759739941859</updated>
+    </task>
+    <servers />
+  </component>
+</project>

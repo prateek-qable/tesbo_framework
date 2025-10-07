@@ -1,0 +1,662 @@
+{
+  "Infrastructure_Menu": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//a[@href='/infrastructure/host/list']//*[name()='svg'])[1]"
+  },
+  "Select_all_checkbox_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//label[@for=\"SelectAll\"]/span[contains(@class,'checkbox-icon')]//*/*[@stroke-linecap=\"round\"]"
+  },
+  "Host_Name_Value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//tbody[@class=\"ant-table-tbody\"]/tr[2]/td/span)[1]"
+  },
+  "Operating_System_Value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//tbody[@class=\"ant-table-tbody\"]/tr[2]/td/span)[6]"
+  },
+  "Host_Tab": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[normalize-space()='Hosts']"
+  },
+  "Customize_option_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='checkbox-label-content']/span"
+  },
+  "Customize_option_container_select_all": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Select All']"
+  },
+  "ant_table_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"ant-table-container\"]//thead[@class=\"ant-table-thead\"]/tr/th//span[@class=\"ant-table-column-title\"]"
+  },
+  "ant_table_container_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-body\"]//tr[position()>1])[1]//td//div[@class=\"custom-render-container left\"]"
+  },
+  "Apply_Button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//button[@class=\"button-v2 is-primary\"]/span[@class=\"btn-text\"])[2]"
+  },
+  "search_by_name_tag_label_box": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@id=\"global-search-infra-host\"]"
+  },
+  "global_search_infra_process": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@id=\"global-search-infra-process\"]"
+  },
+  "name_operator_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//b"
+  },
+  "operator_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[contains(@class,'dropdown-item')]//span[@class=\"operator-badge\"]"
+  },
+  "Apply_Filter_Button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Apply Filters']"
+  },
+  "custom_render_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"custom-render-container left\"]/span"
+  },
+  "Host_info": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Host Info']"
+  },
+  "Host_info_tab_content": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6"
+  },
+  "Host_info_tab_content_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6/following::div[@class=\"value\"]"
+  },
+  "Host_info_system_info_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"grid-container\"]//div[@class=\"grid-item\"]/span[@class=\"text-left\"]"
+  },
+  "Host_info_system_info_header_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"grid-container\"]//div[@class=\"grid-item\"]/span/b"
+  },
+  "progress_bar": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"multivalue-progressbar\"]"
+  },
+  "progress_bar_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"ant-tooltip-inner\"]//div[@class=\"file_system__tooltip__content\"]/div/span"
+  },
+  "progress_bar_tittle": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"progress-title\"]"
+  },
+  "metrics": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Metrics']"
+  },
+  "metrics_cpu_usage_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//*[local-name()='svg']//*[name()='g' and @class=\"highcharts-series-group\" ])[1]"
+  },
+  "processes_tab": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Processes']"
+  },
+  "processes_tab_table_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-container\"]//table//thead)[2]//tr//span[@class=\"ant-table-column-title\"]"
+  },
+  "processes_tab_table_header_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//tbody[@class=\"ant-table-tbody\"])[2]/tr[contains(@class,'ant-table-row')])[1]/td"
+  },
+  "customize_container_checked": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"checkbox-icon check-icon \"]//*[local-name()='svg']"
+  },
+  "customize_container_search_box": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@placeholder=\"Search\"]"
+  },
+  "customize_container_select_check": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"checkbox-label-content\"]/span"
+  },
+  "Host_Name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//tbody[@class=\"ant-table-tbody\"]//tr[contains(@class,'ant-table-row')]/td)[1]//span[@style=\"font-weight: normal;\"]"
+  },
+  "Host_info_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title text-ellipsis\"]"
+  },
+  "Clear_All": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"chip-delete\"]"
+  },
+  "Operating_System": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//tbody[@class=\"ant-table-tbody\"]//tr[contains(@class,'ant-table-row')]/td)[6]"
+  },
+  "Host_Names": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//td[1])[position()>1]//div[@class=\"custom-render-container left\"]/span)[1]"
+  },
+  "Operating_Systems": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Operating System']/ancestor::thead[@class=\"ant-table-thead\"]/following::tbody[@class=\"ant-table-tbody\"]/tr[2]/td//div[contains(@style,'display')]//div)[2]"
+  },
+  "process_tab_table_host_name_row": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Host']/ancestor::span[@class=\"dragHandler \"]/following::tr[contains(@class,'ant-table-row')])[1]//td//div[@class=\"custom-render-container left\"]/span[@style=\"font-weight: normal;\"]"
+  },
+  "process_tab_table_operating_system_row": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='OS']/ancestor::span[@class=\"dragHandler \"]/following::tr[contains(@class,'ant-table-row')])[1]//td//div[@class=\"custom-render-container left\"]//div[@style=\"display: flex; padding-left: 5px;\"]"
+  },
+  "Logs": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Logs']"
+  },
+  "Info_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//*[name()='path' and @fill=\"var(--color-secondary)\"]"
+  },
+  "total_logs_and_info": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[contains(text(),'total')]/ancestor::div[@class=\"highcharts_item_row\"])[position() < 3]"
+  },
+  "date_tool_tip": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='date_block']/b"
+  },
+  "total_logs_and_info_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"table-state-container\"]"
+  },
+  "Logs_plus_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"circle\"])[1]"
+  },
+  "json_value_host_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='host.name']/following-sibling::span[@class=\"copy-to-clipboard\"]"
+  },
+  "json_value_operating_system": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='os.type']/following-sibling::span[@class=\"copy-to-clipboard\"]"
+  },
+  "cpu_usage": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU usage (%)']"
+  },
+  "cpu_usage_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU usage (%)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "check_box": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//label[@class=\"checkmark\"]//*[local-name()='svg']"
+  },
+  "No_data_found_for_selected_time_period": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[@title=\"No data found for selected time period.\"])[1]"
+  },
+  "calender_forward_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='global-datepicker-slider-btn next-slider-button']//button[@class='button-v2']"
+  },
+  "filter_by_search": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@placeholder=\"Search\"]"
+  },
+  "checkbox_label_content": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"custom-checkbox\"]//span[contains(@class,'checkbox-icon')]"
+  },
+  "cpu_usage_by_state": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU usage by State (%)']"
+  },
+  "cpu_usage_by_state_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU usage by State (%)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "cpu_load_average": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU Load Average']"
+  },
+  "cpu_load_average_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU Load Average']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "swap_memory_by_state_bytes": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Swap Memory by State (Bytes)']"
+  },
+  "swap_memory_by_state_bytes_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Swap Memory by State (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "memory_usage_by_state_bytes": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Memory usage by State (Bytes)']"
+  },
+  "memory_by_state_bytes_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Memory usage by State (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "memory_usage_by_state_percent": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Memory usage by State (%)']"
+  },
+  "memory_usage_by_state_percent_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Memory usage by State (%)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_IO_by_Direction_Bytes": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network IO by Direction (Bytes)']"
+  },
+  "Network_IO_by_Direction_Bytes_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network IO by Direction (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_connections_by_State": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network connections by State']"
+  },
+  "Network_connections_by_State_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network connections by State']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_connections_protocol": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network connections (Protocol)']"
+  },
+  "Network_connections_protocol_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network connections (Protocol)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_error_rate_by_direction_bytes": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network Error Rate by Direction (Bytes)']"
+  },
+  "Network_error_rate_by_direction_bytes_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network Error Rate by Direction (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_dropped_rate_by_direction_packets": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network Dropped Rate by Direction (Packets)']"
+  },
+  "Network_dropped_rate_by_direction_packets_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network Dropped Rate by Direction (Packets)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_packets_by_direction_packets": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network packets by Direction (Packets)']"
+  },
+  "Network_packets_by_direction_packets_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network packets by Direction (Packets)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_io_rate_by_direction_bytes": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network IO Rate by Direction (Bytes)']"
+  },
+  "Network_io_rate_by_direction_bytes_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network IO Rate by Direction (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Network_packets_rate_by_direction_packets": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network packets Rate by Direction (Packets)']"
+  },
+  "Network_packets_rate_by_direction_packets_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network packets Rate by Direction (Packets)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Disk_operations_by_Direction_Bytes": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Disk operations by Direction (Bytes)']"
+  },
+  "Disk_operations_by_Direction_Bytes_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Disk operations by Direction (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "transform_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='TRANSFORM GRAPH']"
+  },
+  "transform_graph_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//button[@class=\"button-v2 is-secondary\"]/span"
+  },
+  "Forecast": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//*[text()='Forecast'])[1]"
+  },
+  "compare_to_previous_check_box_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"checkbox-label-content\"]/span"
+  },
+  "cpu_usage_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU usage (%)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "cpu_usage_by_state_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU usage by State (%)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "cpu_load_Average_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='CPU Load Average']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "swap_memory_by_state_bytes_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Swap Memory by State (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "memory_usage_by_State_Bytes_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Memory usage by State (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "memory_usage_by_State_percentage_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Memory usage by State (%)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "Network_IO_by_Direction_Bytes_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network IO by Direction (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "Network_connections_by_State_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network connections by State']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "Network_connections_Protocol_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network connections (Protocol)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "Network_Error_Rate_by_Direction_Bytes_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network Error Rate by Direction (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "Network_packets_Rate_by_Direction_Packets_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Network packets Rate by Direction (Packets)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "Disk_operations_by_Direction_Bytes_action_button_chart": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Disk operations by Direction (Bytes)']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 14 14\"]"
+  },
+  "tool_tip": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[contains(text(),'system')]/ancestor::div[@class='highcharts_item_row']"
+  },
+  "graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//*[local-name()='g' and @class='highcharts-series-group'])[16]//*[name()='path'][@class='highcharts-point highcharts-color-0']"
+  },
+  "table_row": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//tbody[@class='ant-table-tbody'])[2]/tr"
+  },
+  "table_row_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "./td[@class='ant-table-cell']//span[@class='text-legend-label']"
+  },
+  "graph_chart_time": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//*[name()='g' and @class=\"highcharts-axis-labels highcharts-xaxis-labels\"]//*[name()='text']"
+  },
+  "Containers_tabs": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Containers']"
+  },
+  "Total_no_table_rows": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[@class=\"bg-grey\"])[2]"
+  },
+  "Total_no_rows_table": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//tbody[@class=\"ant-table-tbody\"])[2]/tr[position() > 1]"
+  },
+  "Total_no_showing_page": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[@class=\"showNumber\"])[2]/span[2]"
+  },
+  "APM_service_list": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"service-list-table-title\"]"
+  },
+  "Host_Name_Table_data": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//td[1])[position()>1]//div[@class=\"custom-render-container left\"]/span)[1]"
+  }
+}

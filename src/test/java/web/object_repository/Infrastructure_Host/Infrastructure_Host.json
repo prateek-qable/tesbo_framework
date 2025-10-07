@@ -1,0 +1,975 @@
+{
+  "Infrastructure_Menu": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//a[@href='/infrastructure/host/list']//*[name()='svg'])[1]"
+  },
+  "Middleware_agent_dropdown": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"rc-virtual-list-holder-inner\"]//div[text()='Datadog Agent']"
+  },
+  "Middleware_Agent": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"rc-virtual-list-holder-inner\"]//div[text()='Middleware Agent']"
+  },
+  "Host_Tab": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[normalize-space()='Hosts']"
+  },
+  "Host_Name_Table": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//td[1])[position()>1]//div[@class=\"custom-render-container left\"]/span"
+  },
+  "Host_Name_Table_Header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Host Name']"
+  },
+  "mw_table_row_count": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"bg-grey\"]"
+  },
+  "mw_total_no_showing_page_count": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"showNumber\"]/span[2]"
+  },
+  "showing_page_count": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"middle\"]//span[@class=\"showNumber\"])[2]"
+  },
+  "Dashboard_Tab": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[normalize-space()='Dashboard']"
+  },
+  "Quick_Filter": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[normalize-space()='Quick Filter']"
+  },
+  "Overview": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[text()='Overview']"
+  },
+  "Enable_Live_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"live_history_section is_success\"]"
+  },
+  "Disable_Live_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"live_history_section false\"]"
+  },
+  "Update_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()=\"Update\"]"
+  },
+  "copy_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"block_group__item\"]//div[@class=\"share-icon\"]"
+  },
+  "URL_Copied": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[text()='URL Copied!']"
+  },
+  "calender": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-datepicker-button\"]"
+  },
+  "calender_back_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"global-datepicker-slider-btn prev-slider-button\"]//button[@class=\"button-v2\"]"
+  },
+  "global_search": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//input[contains(@id,\"search-input\")])[2]"
+  },
+  "name_operator_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//b"
+  },
+  "operator_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[contains(@class,'dropdown-item')]//span[@class=\"operator-badge\"]"
+  },
+  "Apply_Filter_Button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Apply Filters']"
+  },
+  "clear_all": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"clear-all\"]"
+  },
+  "apply_filter_info": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"chip-group\"]//div[@class=\"chip value \"]/span"
+  },
+  "No_Data_Found_Message": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@title='No data found for selected time period.']"
+  },
+  "customize_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//button[@class='button-v2 is-outlined']//*[name()='svg']/following::span[@class='btn-text']/following::span[text()='Customize']) | (//span[text()='Customize'])"
+  },
+  "APM_SERVICE_customize_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='APM Services']/following::span[text()='Customize']"
+  },
+  "customize_option_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"options-list-container\"]//div[@class=\"option-container\"]//div[@class=\"custom-checkbox\"]//span[@class=\"checkbox-label-content\"]/span)[2]"
+  },
+  "uncheck_customize_option_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"checkbox-icon check-icon \"]//*[local-name()='svg']"
+  },
+  "select_customize_option_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[@class=\"checkbox-label-content\"]/span)[position() >= 2 and position() <= 4]"
+  },
+  "customize_container_search_box": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@placeholder=\"Search\"]"
+  },
+  "customize_container_apply_changes_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Apply Changes']"
+  },
+  "customize_container_default_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"reset\"]"
+  },
+  "customize_container_cancel_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"cancel-btn\"]"
+  },
+  "Host_Name_sort_ascending": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='ant-table-column-sorters ant-table-column-sorters-tooltip-target-sorter'])[1]"
+  },
+  "Host_Name_sort_descending": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='ant-table-column-sorters ant-table-column-sorters-tooltip-target-sorter'])[1]"
+  },
+  "Tool_Tip": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"ant-tooltip-inner\"]"
+  },
+  "Host_Name_Page": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"global-panel--wrapper\"]"
+  },
+  "Host_info_tab_content": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6"
+  },
+  "Host_info_tab_content_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6/following::div[@class=\"value\"]"
+  },
+  "Host_info_system_info_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"grid-container\"]//div[@class=\"grid-item\"]/span[@class=\"text-left\"]"
+  },
+  "Host_info_system_info_header_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"grid-container\"]//div[@class=\"grid-item\"]/span/b"
+  },
+  "progress_bar_tittle": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"progress-title\"]"
+  },
+  "progress_bar": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"multivalue-progressbar\"]"
+  },
+  "progress_bar_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"ant-tooltip-inner\"]//div[@class=\"file_system__tooltip__content\"]/div"
+  },
+  "host_tag_i_tag_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"i-tag\"]"
+  },
+  "i_tag_tool_tip": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"ant-tooltip-inner\"]"
+  },
+  "x_button_close_host_page": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//button[contains(@data-testid,'panel-close-infra')] | //button[@class='dialog__close-action']"
+  },
+  "close_button_log_trend_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//button[contains(@data-testid,\"panel-close-infra\")] | //button[@class=\"dialog__close-action\"])[2]"
+  },
+
+  "Metrics": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Metrics']"
+  },
+  "Metrics_UI_element": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]"
+  },
+  "Containers": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Containers']"
+  },
+  "Total_No_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[@class=\"bg-grey\"])[2]"
+  },
+  "Total_No_row_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"mw-table-view\"])[2]//tr[@class=\"ant-table-row ant-table-row-level-0 builder-row-clickable mw-clickable-row\"]"
+  },
+  "Total_No_header_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-container\"])[2]//div[@class=\"ant-table-header\"]//thead[@class=\"ant-table-thead\"]//th"
+  },
+  "Total_No_value_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-container\"])[2]//div[@class=\"ant-table-body\"]//td[@class=\"ant-table-cell\"]"
+  },
+  "Process": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Processes']"
+  },
+  "Logs": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Logs']"
+  },
+  "APM_Services": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='APM Services']"
+  },
+  "APM_Services_table_row_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-container\"])[2]//div[@class=\"ant-table-body\"]//td[@class=\"ant-table-cell\"]//div//span"
+  },
+  "customize_select_button_check_box": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Select All']/preceding::span[@class=\"checkbox-icon check-icon \"]//*[name()='svg' and @fill=\"none\"]"
+  },
+  "select_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='checkbox-icon check-icon ']//*[local-name()='svg']/preceding::span[text()='Select All']"
+  },
+  "cpu_usage_graph_time": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "dyn-xpath",
+    "web_locator": "(//*[name()='g' and @class=\"highcharts-axis-labels highcharts-xaxis-labels\"])[1]//*[name()='text']"
+  },
+  "cpu_usage_by_state_graph_time": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//*[name()='g' and @class=\"highcharts-axis-labels highcharts-xaxis-labels\"])[2]//*[name()='text']"
+  },
+  "filter_by_search": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@placeholder=\"Search\"]"
+  },
+  "checkbox_label_content": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"custom-checkbox\"]//span[contains(@class,'checkbox-icon')]"
+  },
+  "cpu_usage": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[text()='CPU Load Average']"
+  },
+  "cpu_usage_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//*[name()='g' and contains(@class, 'highcharts-series-0') and contains(@class, 'highcharts-markers')])[1]//*[name()='path']"
+  },
+  "check_box": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//label[@class=\"checkmark\"]//*[local-name()='svg']"
+  },
+  "expand_button_cpu_usage": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[text()='CPU Load Average']/parent::div[@class=\"mw-card-header-wrapper\"]//button[@class=\"action-button-chart\"]"
+  },
+  "i_icon_each_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//*[name()='path' and @stroke-width=\"0.16\"]"
+  },
+  "tool_tip_i_icon_each_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"ant-tooltip-content\"]/div[@class=\"ant-tooltip-inner\"]"
+  },
+  "chart_expand": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"comparison-view-old\"]"
+  },
+  "graph_expand_close_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"transform-graph\"]/following::button[@class=\"dialog__close-action\"]"
+  },
+  "Transform_Graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='TRANSFORM GRAPH']"
+  },
+  "Transform_Graph_options": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"transform-graph\"]//button[@class=\"button-v2 is-secondary\"]//span[@class=\"btn-text\"]"
+  },
+  "Forecast": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//*[@class=\"highcharts-plot-line-label \"]"
+  },
+  "compare_to_previous": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//label[text()='COMPARE TO PREVIOUS']"
+  },
+  "compare_to_previous_hour_day_week_month": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"graph-type-grid\"]//span[@class=\"checkbox-label-content\"]/span"
+  },
+  "graph_data": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//*[name()='g']//*[name()='path' and @fill='#7E7E7E']"
+  },
+  "tool_tip_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[contains(text(),'system')]/ancestor::div[@class='highcharts_item_row']"
+  },
+  "date_tool_tip": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='date_block']/b"
+  },
+  "Search_global_text_field_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@id=\"global-search-infra-container\"]"
+  },
+  "Ai_search_icon": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"search-options-container\"]/following::div[@class=\"ai-search-icon show-hovered-background\"]"
+  },
+  "container_table_host_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//div[@class=\"mw-table-view\"])[2]//tr[position()>1]//td[1]//div[@class=\"action-column-content\"])[1]"
+  },
+  "customize_container_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//button[@class='button-v2 is-outlined']/following::span[text()='Customize']"
+  },
+  "container_table_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//div[@class=\"mw-table-view\"])[2]//div[@role=\"presentation\"]//div[@class=\"ant-spin-container\"]//thead[@class=\"ant-table-thead\"]//tr//span[@class=\"ant-table-column-title\"])[1]"
+  },
+  "container_table_first_row": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//tbody[@class=\"ant-table-tbody\"])[2]//tr[contains(@class,'ant-table-row')]//td//div[@class='custom-render-container left']/span[@style=\"font-weight: normal;\"])[1]"
+  },
+  "container_table_header_list": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-container\"])[2]//thead[@class=\"ant-table-thead\"]//span[@class=\"ant-table-column-title\"]"
+  },
+  "container_table_header_row_data": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//div[@class=\"ant-spin-container\"])[2]//tbody[@class=\"ant-table-tbody\"]//tr[contains(@class,'ant-table-row')])[1]//td[contains(@class,'ant-table-cell')]//span[@style=\"font-weight: normal;\"]"
+  },
+  "search_global_text_filed": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[contains(@class,'search')]/following::input[contains(@id,'global-search-infra')])[2]"
+  },
+  "processes_id_table": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(((//tbody[@class=\"ant-table-tbody\"])[2]//tr[contains(@class,'ant-table-row')])[1]//td[@class=\"ant-table-cell\"]//div[@class=\"custom-render-container left\"]/span)[1]"
+  },
+  "APM_service_table": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(((//tbody[@class=\"ant-table-tbody\"])[2]//tr[position()>1])[1]//td[contains(@class,\"ant-table-cell\")])[1]//div/span"
+  },
+  "processes_id_info_page": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"header-body\"]/following::div[@class=\"title text-ellipsis\"]"
+  },
+  "Select_customize_option_container": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[@class=\"checkbox-label-content\"]/span)[2]"
+  },
+  "process_table_operating_system_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6[text()='OPERATING SYSTEM']"
+  },
+  "process_table_cpu_utilization_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6[text()='CPU UTILIZATION']"
+  },
+  "process_info_page_executable_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"title text-ellipsis\"])[2]"
+  },
+  "process_table_memory_usage_percentage_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6[text()='MEMORY UTILIZATION']"
+  },
+  "process_table_DISH_IO_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6[text()='DISK I/O']"
+  },
+  "process_table_physical_usage_data_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6[text()='PHYSICAL USAGE']"
+  },
+  "process_table_Virtual_Usage_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area \"]/h6[text()='VIRTUAL USAGE']"
+  },
+  "process_table_Host_Name_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"card_grid-item\"]/span[text()='Host']"
+  },
+  "process_table_PID_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"card_grid-item\"]/span[text()='PID']"
+  },
+  "process_table_OWNER_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"card_grid-item\"]/span[text()='OWNER']"
+  },
+  "process_table_Full_Command_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title-area place-info-on-left\"]/h6[text()='Full Command']"
+  },
+  "process_info_page_operating_system": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//h6[text()='OPERATING SYSTEM']/ancestor::div[@class=\"mw-card-outer-wrapper\"]/child::div[@class=\"card-wrapper is-default\"]//div[@class=\"value\"]"
+  },
+  "process_info_page_cpu_utilization": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//h6[text()='CPU UTILIZATION']/parent::div[@class=\"title-area \"]/following-sibling::div[@class=\"content-area\"]/div[@class=\"value\"]"
+  },
+  "process_info_page_memory_usage_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//h6[text()='MEMORY UTILIZATION']/parent::div[@class=\"title-area \"]/following-sibling::div[@class=\"content-area\"]/div[@class=\"value\"]"
+  },
+  "process_info_page_DISH_IO_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//h6[text()='DISK I/O']/parent::div[@class=\"title-area \"]/following-sibling::div[@class=\"content-area\"]/div[@class=\"value\"]"
+  },
+  "process_info_page_physical_usage_data_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//h6[text()='PHYSICAL USAGE']/parent::div[@class=\"title-area \"]/following-sibling::div[@class=\"content-area\"]/div[@class=\"value\"]"
+  },
+  "process_info_Virtual_Usage_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//h6[text()='VIRTUAL USAGE']/parent::div[@class=\"title-area \"]/following-sibling::div[@class=\"content-area\"]/div[@class=\"value\"]"
+  },
+  "process_info_Host_Name_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Host']/parent::div[@class=\"card_grid-item\"]/child::span[@class=\"text-right\"]//div[@class=\"hoverable-div-tab-infra\"]"
+  },
+  "process_info_PID_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='PID']/parent::div[@class=\"card_grid-item\"]/child::span[@class=\"text-right\"]/b"
+  },
+  "process_info_Process_owner_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='OWNER']/parent::div[@class=\"card_grid-item\"]/child::span[@class=\"text-right\"]/b"
+  },
+  "process_info_full_command_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//h6[text()='Full Command']/ancestor::div[@class=\"card-wrapper is-default\"]/child::div[@class=\"content-area\"]/div[@class=\"copy-card-content\"]/div)[1]"
+  },
+  "full_command_copied": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[text()='Command copied to clipboard']"
+  },
+  "process_info_full_command_copy": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"copy-icon\"]//*[local-name()='svg']"
+  },
+  "process_info_Metrics_Tab": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Process Info']/following::span[text()='Metrics']"
+  },
+  "process_info_Logs_Tab": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Process Info']/following::span[text()='Logs']"
+  },
+  "Host_Table": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//td[1]//div[@class=\"custom-render-container left\"]/span[@style=\"font-weight: normal;\"]"
+  },
+  "Back_button_Host_Tab": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='back-btn']/child::button[@class='button-v2 is-outlined']"
+  },
+  "Source_Log_Trend": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]"
+  },
+  "Source_Log_Trend_filter_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"mw-card-header-title\"]/ancestor::div[@class=\"mw-card-header has-actions\"]//div[text()='Source Log Trend']/parent::div[@class='mw-card-header-wrapper']/child::div[@class=\"mw-card-extra\"]//*[local-name()='svg' and @viewBox=\"0 0 18 18\"]"
+  },
+  "Logs_Export_Button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"export-icon\"]//button[@class=\"button-v2\"]"
+  },
+  "Logs_Table_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//div[@class=\"ant-table-header\"])[2]//span[@class=\"table-column-title\"])[position() < 4]"
+  },
+  "Logs_Table_data": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "((//tbody[@class=\"ant-table-tbody\"])[2]//tr[position() > 1])[1]//td//span[@class=\"cor-text\"]"
+  },
+  "Logs_table_plus_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//button[@class=\"section-expand-button\"]//div[@class=\"circle\"]//*[local-name()='svg'])[1]"
+  },
+  "Logs_table_expand": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-body\"]//table[contains(@style,'width:')])[2]"
+  },
+  "Logs_Host_Name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"title text-ellipsis\"]"
+  },
+  "json_value_host_name": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='host.name']/following-sibling::span[@class=\"copy-to-clipboard\"]"
+  },
+  "json_key_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"json-key\" and not(normalize-space(text()) = '{') and not(normalize-space(text()) = '}')]"
+  },
+  "json_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"json-key\"]/ancestor::div[@class=\"json-object-items\"]//span[@class=\"copy-to-clipboard\"]"
+  },
+  "info_graph": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//*[name()='path' and @fill=\"var(--color-secondary)\"]"
+  },
+  "total_logs_info": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[contains(text(),'total')]/ancestor::div[@class=\"highcharts_item_row\"])[position() < 3]"
+  },
+  "download_logs_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"export-icon\"]//button[@class=\"button-v2\"]//*[name()='svg']//*[name()='path'])[2]"
+  },
+  "Total_logs": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='corelation-actions']/div[@class='table-state-container']/div)[2]/child::span"
+  },
+  "Actual_logs": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"corelation-actions\"]/child::div[@class=\"table-state-container\"]/div[@class=\"state-container\"]"
+  },
+  "showing_result_logs_table": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"middle\"]/child::span[@class=\"showNumber\"])[2]"
+  },
+  "next_button_pagination": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//li[@class=\"ant-pagination-next\"]//button[@class=\"ant-pagination-item-link\"]//span[@class=\"anticon anticon-right\"]//*[name()='svg']"
+  },
+  "service_list": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"service-list-table-title\"]"
+  },
+  "APM_service_table_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-spin-container\"])[2]//div[@class=\"ant-table-container\"]//div[@class=\"ant-table-header\"]//th//span[@class=\"table-column-title\"]"
+  },
+  "Host_Names": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//td[1])[position()>1]//div[@class=\"custom-render-container left\"]/span"
+  },
+  "Resource_State": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//table//tr//td[5])[position()>1]//div[@class=\"custom-render-container left\"]/div"
+  },
+  "table_help_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"table-help-section-container\"])[2]//*[name()='svg'] | (//div[@class=\"table-help-section-container\"])//*[name()='svg']"
+  },
+  "table_help_close_button": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class=\"close-icon-container\"]//*[local-name()='svg']"
+  },
+  "APM_service_header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-container\"])[2]//div[@class=\"ant-table-header\"]//thead[@class=\"ant-table-thead\"]//th//span[@class=\"table-column-title\"]"
+  },
+  "APM_service_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"ant-table-container\"])[2]//div[@class=\"ant-table-body\"]//tbody[@class=\"ant-table-tbody\"]//tr[position()>1]//td[@class=\"ant-table-cell\"]"
+  },
+  "Infra_calendar_Menu": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "(//button[@data-testid=\"panel-datepicker-infra-host\"]//*[name()='svg'])[2]"
+  },
+  "No_details_found": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "//span[contains(text(),'No details found')]"
+  },
+  "date_picker_previous_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"global-datepicker-slider-btn prev-slider-button\"]//*[name()='svg'])[2]"
+  },
+  "date_picker_forward_button": {
+    "platform": "web",
+    "element_type": "button",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class=\"global-datepicker-slider-btn next-slider-button\"]//*[local-name()='svg'])[2]"
+  },
+  "APM_table_Requests_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Requests']/ancestor::span[@class=\"dragHandler \"]/following::tr[contains(@class,'ant-table-row')])[1]//td[3]/span/div"
+  },
+  "service_info_Requests_value": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//h6[text()='Total Requests']/ancestor::div[@class=\"mw-card-outer-wrapper\"]/div/div/div"
+  },
+  "customize_column_option": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class=\"checkbox-label-content\"]/span"
+  },
+  "search_global_text_filed_processes": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@id=\"global-search-infra-process\"]"
+  },
+  "scroll_down": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "css_selector",
+    "web_locator": "div[class=\"tabs-active-content tab_content__wrapper\"]"
+  },
+  "clear_filter": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "css_selector",
+    "web_locator": "//span[text()='Applied Filters:']"
+  },
+  "Expand_source_trend_log": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//button[@class=\"button-v2 action-button-chart small\"]//*[local-name()='svg']"
+  },
+  "mv_popover_content": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[@class=\"checkbox-label-content\"]/span)[1]"
+  },
+  "search_box_content": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[@placeholder=\"Search\"]"
+  }
+}
