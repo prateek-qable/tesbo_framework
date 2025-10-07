@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/TestConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/TestConfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/unity/performaction/autoweb/Verify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Customer_onboarding/customer_onboarding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Customer_onboarding/customer_onboarding.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/ExchangeRate/exchange_rate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/ExchangeRate/exchange_rate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Headers/headers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Headers/headers.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Remit_Online/remit_online.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Remit_Online/remit_online.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/Customer_onboarding/customer_onboarding_test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/ExchangeRate/currency_exchange_rateTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/HeadersTest/headers_test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/Remit_online_test/remit_online_test.java" beforeDir="false" />
-    </list>
+    <list default="true" id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
