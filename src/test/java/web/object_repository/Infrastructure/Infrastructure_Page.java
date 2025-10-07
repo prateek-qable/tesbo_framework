@@ -50,6 +50,51 @@ public class Infrastructure_Page {
         wait.wait_until_element_is_clickable("Host_Tab");
     }
 
+    public void verify_and_click_on_Cluster(){
+        verify.check_element_is_present("Infrastructure_Cluster");
+        wait.wait_until_element_is_clickable("Infrastructure_Cluster");
+    }
+    public void verify_and_click_on_Dashboard_Tab(){
+        verify.check_element_is_present("Dashboard_Tab");
+        wait.wait_until_element_is_clickable("Dashboard_Tab");
+    }
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text1(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text1");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text1");
+    }
+
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text2(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text2");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text2");
+    }
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text3(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text3");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text3");
+    }
+
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text4(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text4");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text4");
+    }
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text5(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text5");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text5");
+    }
+
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text6(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text6");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text6");
+    }
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text7(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text7");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text7");
+    }
+
+    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text8(){
+        verify.check_element_is_present("Dashboard_Tab_Dropdown_Text8");
+        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text8");
+    }
+
     public void click_on_apm_service_customize_button() {
         element.click("APM_SERVICE_customize_button");
     }
