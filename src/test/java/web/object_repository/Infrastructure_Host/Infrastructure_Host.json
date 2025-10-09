@@ -73,6 +73,48 @@
     "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Cluster Health Overview')]"
   },
 
+  "Dashboard_Tab_Dropdown_Arrow_Icon": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Cluster Health Overview'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text2": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Resource Overview'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text3": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Nodes'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text4": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Deployment and Daemonsets'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text5": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Replicasets & Statefulsets'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text6": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Jobs & Network'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text7": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Pods, Service & Containers'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
   "Dashboard_Tab_Dropdown_Text2": {
     "platform": "web",
     "element_type": "textbox",

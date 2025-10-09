@@ -53,46 +53,69 @@ public class Infrastructure_Page {
     public void verify_and_click_on_Cluster(){
         verify.check_element_is_present("Infrastructure_Cluster");
         wait.wait_until_element_is_clickable("Infrastructure_Cluster");
+        element.click("Infrastructure_Cluster");
     }
     public void verify_and_click_on_Dashboard_Tab(){
         verify.check_element_is_present("Dashboard_Tab");
         wait.wait_until_element_is_clickable("Dashboard_Tab");
+        element.click("Dashboard_Tab");
     }
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text1(){
+    public void verify_Dashboard_Tab_Dropdown_Text1_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text1");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text1");
     }
 
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text2(){
+    public void click_on_Dashboard_Tab_Dropdown_Text1_Arrow_Icon(){
+        element.click("Dashboard_Tab_Dropdown_Arrow_Icon");
+    }
+    public void click_on_Dashboard_Tab_Dropdown_Text2_Arrow_Icon(){
+        element.click("Dashboard_Tab_Dropdown_Arrow_Icon_Text2");
+    }
+    public void click_on_Dashboard_Tab_Dropdown_Text3_Arrow_Icon(){
+        element.click("Dashboard_Tab_Dropdown_Arrow_Icon_Text3");
+    }
+    public void click_on_Dashboard_Tab_Dropdown_Text4_Arrow_Icon(){
+        element.click("Dashboard_Tab_Dropdown_Arrow_Icon_Text4");
+    }
+    public void click_on_Dashboard_Tab_Dropdown_Text5_Arrow_Icon(){
+        element.click("Dashboard_Tab_Dropdown_Arrow_Icon_Text5");
+    }
+    public void click_on_Dashboard_Tab_Dropdown_Text6_Arrow_Icon(){
+        element.click("Dashboard_Tab_Dropdown_Arrow_Icon_Text6");
+    }
+    public void click_on_Dashboard_Tab_Dropdown_Text7_Arrow_Icon(){
+        element.click("Dashboard_Tab_Dropdown_Arrow_Icon_Text7");
+    }
+
+    public void verify_Dashboard_Tab_Dropdown_Text2_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text2");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text2");
+
     }
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text3(){
+    public void verify_Dashboard_Tab_Dropdown_Text3_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text3");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text3");
+
     }
 
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text4(){
+    public void verify_Dashboard_Tab_Dropdown_Text4_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text4");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text4");
+
     }
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text5(){
+    public void verify_Dashboard_Tab_Dropdown_Text5_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text5");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text5");
+
     }
 
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text6(){
+    public void verify_Dashboard_Tab_Dropdown_Text6_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text6");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text6");
+
     }
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text7(){
+    public void verify_Dashboard_Tab_Dropdown_Text7_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text7");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text7");
+
     }
 
-    public void verify_and_click_on_Dashboard_Tab_Dropdown_Text8(){
+    public void verify_Dashboard_Tab_Dropdown_Text8_isvisible(){
         verify.check_element_is_present("Dashboard_Tab_Dropdown_Text8");
-        wait.wait_until_element_is_clickable("Dashboard_Tab_Dropdown_Text8");
+
     }
 
     public void click_on_apm_service_customize_button() {
@@ -833,9 +856,28 @@ public class Infrastructure_Page {
     }
 
 
+    public void get_the_text1_in_variable(){
+        List<WebElement> all_Text= driver.findElements(By.xpath("//div[@class=\"grid-view-section\"]//div[@class=\"expandable-header\"]/child::span[@class=\"expandable-title   \"]"));
+        for(WebElement all:all_Text){
+            String t1= all.getText();
+            System.out.println("Text: "+t1);
+        }
+    }
 
-
-
+    public void get_the_text2_in_variable(){
+        List<WebElement> all_Text= driver.findElements(By.xpath("//div[@class=\"grid-view-section\"]//div[@class=\"expandable-header\"]/child::span[@class=\"expandable-title   \"]"));
+        for(WebElement all:all_Text){
+            String t2= all.getText();
+            System.out.println("Text: "+t2);
+        }
+    }
+    public void get_the_widgets_text_from_the_dropdown(){
+        List<WebElement> all_Text= driver.findElements(By.xpath("//div[@class='mw-card-header-title' and contains(text(), 'CPU USAGE')]"));
+        for(WebElement all:all_Text){
+            String x1= all.getText();
+            System.out.println("Text: "+ x1);
+        }
+    }
 }
 
 

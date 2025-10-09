@@ -1,0 +1,86 @@
+{
+  "Settings_Menu": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//a[@href='/settings']"
+  },
+  "Settings_Menu_Header": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='section-heading']"
+  },
+  "Settings_Menu_list_Text1": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Profile')]"
+  },
+  "Settings_Menu_list_Profile_header1": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='profile-area']"
+  },
+  "Settings_Menu_list_Text2": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Users')]"
+  },
+  "Settings_Menu_list_Text3": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Teams')]"
+  },
+  "Settings_Menu_list_Text4": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Roles & Permissions')]"
+  },
+  "Settings_Menu_list_Text5": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Projects')]"
+  },
+  "Settings_Menu_list_Text6": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Billing')]"
+  },
+  "Settings_Menu_list_Text7": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Usage')]"
+  },
+  "Settings_Menu_list_Text8": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": " //div[@class='title-text' and contains(text(),'Ingestion')]"
+  },
+  "Settings_Menu_list_Text9": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//div[@class='title-text' and contains(text(),'Pipeline')])[1]"
+  },
+  "Settings_Menu_list_Text10": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='title-text' and contains(text(),'API Key')]"
+  },
+  "Settings_Menu_list_Text11": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='title-text' and contains(text(),'Agent')]"
+  }
+}
