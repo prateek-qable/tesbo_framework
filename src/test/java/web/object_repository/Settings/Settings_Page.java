@@ -87,9 +87,7 @@ public class Settings_Page {
         element.click("Dashboard_Tab_Search_field");
         element.enter_text("Dashboard_Tab_Search_field", "K8s Cluster");
     }
-    public void verify_that_user_is_in_Profile_page(){
+    public void verify_that_user_is_in_Profile_page() {
         verify.check_element_is_present("Settings_Menu_list_Profile_header1");
     }
-
-
 }

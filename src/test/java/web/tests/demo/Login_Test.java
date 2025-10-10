@@ -4,13 +4,9 @@ import io.unity.framework.init.base;
 import org.testng.annotations.Test;
 import web.object_repository.Dashboard.Dashboard_Page;
 import web.object_repository.Login.Login_Page;
-import web.object_repository.Infrastructure_Host.Infrastructure_Host_Page;
 import web.object_repository.Infrastructure.Infrastructure_Page;
 import web.object_repository.Settings.Settings_Page;
-
-
 import java.time.Duration;
-
 
 /**
  * Automation test for login.
@@ -19,7 +15,6 @@ import java.time.Duration;
  * testCaseID: eng-001,002,003
  * description: Verify login with valid credentials
  */
-
 public class Login_Test extends base {
     Login_Page login_page = null;
     Infrastructure_Page infrastructure_page = null;
@@ -66,7 +61,6 @@ public class Login_Test extends base {
         dashboard_page.click_on_Dashboard_Tab_Dropdown_Text6_Arrow_Icon();
         dashboard_page.click_on_Dashboard_Tab_Dropdown_Text7_Arrow_Icon();
 
-
         //  login_page.click_on_Embrace_your_pro_user_pop_up();
         login_page.verify_and_click_on_logout_menu_option();
         login_page.click_on_logout_button();
@@ -79,7 +73,7 @@ public class Login_Test extends base {
         login_page.click_on_password_text_box("Test@123");
         login_page.click_on_login_button();
         login_page.verify_explore_and_keep_an_eye_on_your_metrics_isVisible();
-        //  login_page.click_on_Embrace_your_pro_user_pop_up();
+        // login_page.click_on_Embrace_your_pro_user_pop_up();
         // login_page.verify_and_click_on_logout_menu_option();
 
         login_page.click_on_logout_button();
@@ -111,19 +105,14 @@ public class Login_Test extends base {
         settings_page.verify_and_click_Agent_Pipeline();
         settings_page.verify_and_click_API_key();
         settings_page.verify_and_click_Agent_Pipeline();
-
     }
-
     @Test()
-        public static void main(String[] args) {
-            int num[] = {10, 20, 30, 40, 50};
+    public void main(String[] args) {
+        int num[] = {10, 20, 30, 40, 50};
 
-            // Enhanced for loop
-            for (int n : num) {
-                System.out.println(n);
-            }
+        // Enhanced for loop
+        for (int n : num) {
+            System.out.println(n);
         }
     }
-
-
-
+}

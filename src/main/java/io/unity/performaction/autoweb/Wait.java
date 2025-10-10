@@ -53,17 +53,14 @@ public class Wait {
         new WebDriverWait(driver, Duration.ofSeconds(60))
                 .until(ExpectedConditions.alertIsPresent());
     }
-
     public void wait_for_second(int second) {
         try {
             Thread.sleep((long)second * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
             Thread.currentThread().interrupt();
-
         }
     }
-
     public void implicit_wait_for_page(WebDriver driver)
     {
         driver.manage().timeouts().implicitlyWait(10, SECONDS);
@@ -84,6 +81,4 @@ public class Wait {
         });
         element2.click();
     }
-
-
 }
