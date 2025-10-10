@@ -1,0 +1,26 @@
+{
+  "Dashboard_Menu": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//a[@href=\"/dashboards\"]"
+  },
+  "Dashboard_Tab_Text": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[text()='Dashboards']"
+  },
+  "Dashboard_Tab_Search_field": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//input[contains(@placeholder, 'Search by name')]"
+  },
+  "Dashboard_Tab_Searched_K8s_Cluster": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='avatar-background']"
+  }
+}

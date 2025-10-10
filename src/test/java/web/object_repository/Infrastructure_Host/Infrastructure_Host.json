@@ -5,6 +5,13 @@
     "locator_type": "xpath",
     "web_locator": "(//a[@href='/infrastructure/host/list']//*[name()='svg'])[1]"
   },
+  "Infrastructure_Cluster": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//div[@class='title-text' and normalize-space(text())='Clusters']"
+  },
+
   "Middleware_agent_dropdown": {
     "platform": "web",
     "element_type": "textbox",
@@ -58,6 +65,103 @@
     "element_type": "textbox",
     "locator_type": "xpath",
     "web_locator": "//span[normalize-space()='Dashboard']"
+  },
+  "Dashboard_Tab_Dropdown_Text1": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Cluster Health Overview')]"
+  },
+
+  "Dashboard_Tab_Dropdown_Arrow_Icon": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Cluster Health Overview'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text2": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Resource Overview'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text3": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Nodes'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text4": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Deployment and Daemonsets'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text5": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Replicasets & Statefulsets'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text6": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Jobs & Network'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Arrow_Icon_Text7": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "(//span[text()='Pods, Service & Containers'])[last()]/ancestor::div[@class=\"mw-expandable-view\"]//div[@class=\"circle\"]"
+  },
+  "Dashboard_Tab_Dropdown_Text2": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Resource Overview')]"
+  },
+
+  "Dashboard_Tab_Dropdown_Text3": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Nodes')]"
+  },
+
+  "Dashboard_Tab_Dropdown_Text4": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Deployment and Daemonsets')]"
+  },
+
+  "Dashboard_Tab_Dropdown_Text5": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Replicasets & Statefulsets')]"
+  },
+
+  "Dashboard_Tab_Dropdown_Text6": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Jobs & Network')]"
+  },
+
+  "Dashboard_Tab_Dropdown_Text7": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Pods, Service & Containers')]"
+  },
+
+  "Dashboard_Tab_Dropdown_Text8": {
+    "platform": "web",
+    "element_type": "textbox",
+    "locator_type": "xpath",
+    "web_locator": "//span[@class='expandable-title   ' and contains (text(),'Your Widgets')]"
   },
   "Quick_Filter": {
     "platform": "web",

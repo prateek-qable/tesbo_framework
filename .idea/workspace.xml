@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="" />
+    <list default="true" id="5bc58cf8-7c70-446b-b400-61d7041235aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/object_repository/Settings/Settings_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/object_repository/Settings/Settings_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/tests/demo/Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/tests/demo/Login_Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,13 +34,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Login_Test (1).executor": "Run",
+    "Application.Login_Test (2).executor": "Run",
+    "Application.Login_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02.executor": "Run",
     "TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01.executor": "Run",
-    "TestNG.Login_Test.login_with_valid_credentials.executor": "Run",
-    "git-widget-placeholder": "master",
+    "TestNG.Login_Test.Settings_Page.executor": "Run",
+    "TestNG.Login_Test.login_with_valid_credentials.executor": "Debug",
+    "git-widget-placeholder": "Infrastructure",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Guest User/Downloads/Al_Mulla_exchange/Al_Mulla_exchange/src/test/java/web/object_repository"
+    "last_opened_file_path": "C:/Users/Guest User/Downloads/qa-automation 2/qa-automation"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -49,36 +57,52 @@
       <recent name="C:\Users\Guest User\Downloads\Al_Mulla_exchange\Al_Mulla_exchange\src\test\java\web\object_repository" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01">
-    <configuration name="Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Login_Test (2)">
+    <configuration name="Login_Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Login_Test" />
       <module name="Al_Mulla_POC-Tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web.tests.demo.Infrastructure_Host.*" />
+          <option name="PATTERN" value="web.tests.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="web.tests.demo.Infrastructure_Host" />
-      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Infrastructure_Host.Infrastructure_Host_Test" />
-      <option name="METHOD_NAME" value="Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Login_Test" />
+      <module name="Al_Mulla_POC-Tests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Login_Test" />
       <module name="Al_Mulla_POC-Tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="web.tests.demo.Infrastructure_Host.*" />
+          <option name="PATTERN" value="web.tests.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="web.tests.demo.Infrastructure_Host" />
-      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Infrastructure_Host.Infrastructure_Host_Test" />
-      <option name="METHOD_NAME" value="Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_Test.Settings_Page" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Al_Mulla_POC-Tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.tests.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="web.tests.demo" />
+      <option name="MAIN_CLASS_NAME" value="web.tests.demo.Login_Test" />
+      <option name="METHOD_NAME" value="Settings_Page" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,8 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Infrastructure_Host_Test.Verify_that_the_user_can_navigate_to_the_Hosts_tab_IS_01" />
-        <item itemvalue="TestNG.Infrastructure_Host_Test.Verify_that_both_Hosts_and_Dashboards_tabs_are_present_IS_02" />
+        <item itemvalue="Application.Login_Test (2)" />
+        <item itemvalue="TestNG.Login_Test.Settings_Page" />
+        <item itemvalue="Application.Login_Test (1)" />
+        <item itemvalue="Application.Login_Test" />
         <item itemvalue="TestNG.Login_Test.login_with_valid_credentials" />
       </list>
     </recent_temporary>
